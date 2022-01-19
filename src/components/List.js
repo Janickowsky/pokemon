@@ -11,8 +11,7 @@ function List(){
                     return(
                     <li key={member.id}>{member.name} / {member.pokemon} / level : {member.level}</li>
                     )
-                }
-                    )}
+                })}
             </ul>
         </div>
 
